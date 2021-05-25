@@ -64,7 +64,7 @@ getResponse();
 void getResponse()
 {
     string question = Console.ReadLine();
-    if (question == null)
+    if (question == "")
     {
         Console.Write("Come back again when you have more questions!");
     }
